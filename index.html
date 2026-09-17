@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1220" />
+  <title>ClearDesk Command</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="gate" class="gate">
+    <div class="gate-card">
+      <p class="eyebrow">ClearDesk · Founder Ops</p>
+      <h1>Command</h1>
+      <p class="muted">Team progress — phone check-in</p>
+      <form id="gate-form">
+        <label for="password">Shared password</label>
+        <input id="password" type="password" autocomplete="current-password" required />
+        <button type="submit">Enter</button>
+        <p id="gate-error" class="error hidden">Wrong password</p>
+      </form>
+    </div>
+  </div>
+
+  <main id="app" class="app hidden">
+    <header class="top">
+      <div>
+        <p class="eyebrow">ClearDesk Command</p>
+        <h1>Ops status</h1>
+      </div>
+      <button type="button" id="refresh" class="ghost">Refresh</button>
+    </header>
+
+    <section class="progress-card" id="closes-card">
+      <div class="row">
+        <span>Closes toward $300 bar</span>
+        <strong id="closes-label">$0 / $298</strong>
+      </div>
+      <div class="bar"><div id="closes-bar" class="bar-fill"></div></div>
+      <p class="muted" id="slots-label">0 of 2 slots closed</p>
+    </section>
+
+    <section class="grid" id="channel-grid"></section>
+
+    <section class="card">
+      <h2>Offer & pay</h2>
+      <ul class="kv" id="offer-list"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Last team action</h2>
+      <p id="last-action" class="action"></p>
+      <p id="last-action-time" class="muted"></p>
+    </section>
+
+    <section class="card">
+      <h2>Blockers</h2>
+      <ul id="blockers" class="list"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Update feed</h2>
+      <div id="feed" class="feed"></div>
+    </section>
+
+    <section class="card update-form-card">
+      <h2>Append update</h2>
+      <p class="muted small">For teammates: edits go to local session only on Pages. Prefer editing <code>status.json</code> in the repo and committing for a lasting update.</p>
+      <form id="update-form">
+        <label for="update-text">What happened?</label>
+        <textarea id="update-text" rows="3" required placeholder="e.g. First OPS reply on LinkedIn — holding slot"></textarea>
+        <label for="update-author">Who</label>
+        <input id="update-author" type="text" placeholder="Marketing / Business / CoS" required />
+        <button type="submit">Add to this session</button>
+      </form>
+    </section>
+
+    <footer class="foot muted">
+      <p>Password gate · no lead dump · free GitHub Pages</p>
+      <button type="button" id="logout" class="ghost">Lock</button>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
