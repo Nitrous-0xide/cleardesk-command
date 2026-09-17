@@ -1,0 +1,49 @@
+{
+  "updated_at": "2026-09-17T09:10:00+01:00",
+  "channels": [
+    { "name": "LinkedIn", "status": "live" },
+    { "name": "X", "status": "live" },
+    { "name": "Indie Hackers", "status": "opening / pending" }
+  ],
+  "offer": {
+    "live": true,
+    "name": "Founder Ops Sprint",
+    "price_usd": 149,
+    "slots_open": 3
+  },
+  "pay": {
+    "ready": true,
+    "method": "PayPal invoice frame"
+  },
+  "closes": {
+    "earned_usd": 0,
+    "target_usd": 298,
+    "closed_slots": 0,
+    "goal_slots": 2
+  },
+  "last_action": {
+    "at": "2026-09-17T10:08:00+01:00",
+    "text": "X offer tweet live under ClearDesk; LinkedIn bump firing same hour."
+  },
+  "blockers": [
+    "Indie Hackers account still opening",
+    "Waiting on OPS / DM replies to close"
+  ],
+  "feed": [
+    {
+      "at": "2026-09-17T10:08:00+01:00",
+      "by": "Chief of Staff",
+      "text": "X is live (@mrfart42 / ClearDesk). Offer tweet posted. Opening Indie Hackers next."
+    },
+    {
+      "at": "2026-09-17T09:38:00+01:00",
+      "by": "Chief of Staff",
+      "text": "LinkedIn post live for ClearDesk. Business owns closing."
+    },
+    {
+      "at": "2026-09-17T09:50:00+01:00",
+      "by": "Business Manager",
+      "text": "Pay unlocked via soft-framed PayPal invoice ($149)."
+    }
+  ]
+}
