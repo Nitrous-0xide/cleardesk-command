@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T10:18:00+01:00",
+  "updated_at": "2026-09-17T10:20:00+01:00",
   "channels": [
     { "name": "LinkedIn", "status": "live" },
     { "name": "X", "status": "live" },
@@ -22,14 +22,19 @@
     "goal_slots": 2
   },
   "last_action": {
-    "at": "2026-09-17T10:18:00+01:00",
-    "text": "Marketing: LinkedIn bump + X offer live; IH still pending."
+    "at": "2026-09-17T10:20:00+01:00",
+    "text": "Business: watching LinkedIn for OPS; CoS forwards X leads; same-day close + PayPal invoice ready."
   },
   "blockers": [
     "Indie Hackers account still opening",
     "Waiting on OPS / DM replies to close"
   ],
   "feed": [
+    {
+      "at": "2026-09-17T10:20:00+01:00",
+      "by": "Business Manager",
+      "text": "Close path hot: hold slot → soft PayPal invoice $149 → intake → same-day live build. LinkedIn scan: 0 OPS so far. CoS owns X watch/forward."
+    },
     {
       "at": "2026-09-17T10:18:00+01:00",
       "by": "Marketing Manager",
