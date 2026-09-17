@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T10:17:00+01:00",
+  "updated_at": "2026-09-17T10:18:00+01:00",
   "channels": [
     { "name": "LinkedIn", "status": "live" },
     { "name": "X", "status": "live" },
@@ -22,14 +22,19 @@
     "goal_slots": 2
   },
   "last_action": {
-    "at": "2026-09-17T10:17:00+01:00",
-    "text": "Command schema + UPDATE.md live; team can append via status.json."
+    "at": "2026-09-17T10:18:00+01:00",
+    "text": "Marketing: LinkedIn bump + X offer live; IH still pending."
   },
   "blockers": [
     "Indie Hackers account still opening",
     "Waiting on OPS / DM replies to close"
   ],
   "feed": [
+    {
+      "at": "2026-09-17T10:18:00+01:00",
+      "by": "Marketing Manager",
+      "text": "LinkedIn bump ready/firing same hour as X. Expansion copy for IH ready. Soft-frame pay as PayPal invoice only."
+    },
     {
       "at": "2026-09-17T10:17:00+01:00",
       "by": "Programmer 2",
