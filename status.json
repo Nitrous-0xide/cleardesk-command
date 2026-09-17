@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-17T09:10:00+01:00",
+  "updated_at": "2026-09-17T10:17:00+01:00",
   "channels": [
     { "name": "LinkedIn", "status": "live" },
     { "name": "X", "status": "live" },
-    { "name": "Indie Hackers", "status": "opening / pending" }
+    { "name": "Indie Hackers", "status": "pending" }
   ],
   "offer": {
     "live": true,
@@ -22,8 +22,8 @@
     "goal_slots": 2
   },
   "last_action": {
-    "at": "2026-09-17T10:08:00+01:00",
-    "text": "X offer tweet live under ClearDesk; LinkedIn bump firing same hour."
+    "at": "2026-09-17T10:17:00+01:00",
+    "text": "Command schema + UPDATE.md live; team can append via status.json."
   },
   "blockers": [
     "Indie Hackers account still opening",
@@ -31,19 +31,24 @@
   ],
   "feed": [
     {
-      "at": "2026-09-17T10:08:00+01:00",
-      "by": "Chief of Staff",
-      "text": "X is live (@mrfart42 / ClearDesk). Offer tweet posted. Opening Indie Hackers next."
+      "at": "2026-09-17T10:17:00+01:00",
+      "by": "Programmer 2",
+      "text": "status.schema.json + UPDATE.md shipped. Marketing/Business: edit status.json on main to refresh the phone dashboard."
     },
     {
-      "at": "2026-09-17T09:38:00+01:00",
+      "at": "2026-09-17T10:08:00+01:00",
       "by": "Chief of Staff",
-      "text": "LinkedIn post live for ClearDesk. Business owns closing."
+      "text": "X is live (ClearDesk). Offer tweet posted. Opening Indie Hackers next."
     },
     {
       "at": "2026-09-17T09:50:00+01:00",
       "by": "Business Manager",
       "text": "Pay unlocked via soft-framed PayPal invoice ($149)."
+    },
+    {
+      "at": "2026-09-17T09:38:00+01:00",
+      "by": "Chief of Staff",
+      "text": "LinkedIn post live for ClearDesk. Business owns closing."
     }
   ]
 }
