@@ -1,37 +1,21 @@
 # ClearDesk Command
 
-Mobile-first status dashboard for ClearDesk team progress. Free GitHub Pages host. Shared password gate — no public lead dump.
+Mobile-first status dashboard for ClearDesk team progress. Free host (GitHub + jsDelivr). Shared password gate — no public lead dump.
 
-## Password
+## Phone URL
 
-Default shared password: `cleardesk`
+https://cdn.jsdelivr.net/gh/Nitrous-0xide/cleardesk-command@main/index.html
 
-Change it in `app.js` (`PASSWORD` constant), then commit + push.
-
-## View locally
-
-Open `index.html` via any static server from this folder, e.g.:
-
-```bash
-python3 -m http.server 8080
-```
-
-Then visit `http://localhost:8080` and enter the password.
-
-## GitHub Pages
-
-1. Repo Settings → Pages → Source: **Deploy from a branch**
-2. Branch: `main` / folder: `/ (root)`
-3. Live URL will be: `https://nitrous-0xide.github.io/cleardesk-command/`
+Password: `cleardesk` (change in `app.js` → `PASSWORD`, then commit + push)
 
 ## How teammates update status
 
-1. Edit `status.json` (channels, closes, blockers, feed, last_action).
-2. Commit and push to `main`.
-3. Pages refreshes in ~1 minute — owner taps **Refresh** on phone.
+**Read [UPDATE.md](./UPDATE.md)** — edit `status.json` on `main`, commit, wait ~1–2 min for CDN, tap Refresh on phone.
 
-The in-page “Append update” form only stores on that phone’s browser for the session demo. Permanent updates go through `status.json`.
+Schema: [`status.schema.json`](./status.schema.json)
 
-## Status schema
+The in-page “Append update” form is session-only on that device. Permanent updates go through `status.json`.
 
-See `status.json` for the shape Marketing / Business / CoS should keep filled in.
+## GitHub Pages (optional)
+
+Settings → Pages → Deploy from branch `main` / root → https://nitrous-0xide.github.io/cleardesk-command/
